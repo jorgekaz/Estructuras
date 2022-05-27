@@ -277,7 +277,7 @@ void funcionMenu(){
     int option=0;
     do{
         color(11);
-        printf("\====================================\n");
+        printf("====================================\n");
         printf(" TRABAJO PRACTICO N° 6: ESTRUCTURAS\n");
         printf("====================================\n");
         color(7);
@@ -391,39 +391,3 @@ void funcionMenu(){
     color(7);
     system("pause");
 }
-
-
-
-
-
-
-
-/// BACK UP ///
-//    printf("EJERCICIO 1 - CARGA DE ALUMNOS\n");
-//    printf("-------------------------------\n");
-//    alumnosValidos=cargarAlumno(listado,30);
-//    printf("EJERCICIO 2 - MOSTRAR LISTADO DE ALUMNOS\n");
-//    printf("-----------------------------------------\n");
-//    mostrarAlumno(listado,alumnosValidos);
-//    printf("EJERCICIO 3 - BUSCAR ALUMNO POR MATRICULA\n");
-//    printf("------------------------------------------\n");
-//    buscarAlumno(listado,alumnosValidos);
-//    printf("EJERCICIO 4 - ORDENAR LOS ALUMNOS POR MATRICULA\n");
-//    printf("------------------------------------------------\n");
-//    ordenarSeleccion(listado,alumnosValidos);
-//    mostrarAlumno(listado,alumnosValidos);
-//    printf("EJERCICIO 5 - MOSTRAR ALUMNOS POR GENERO\n");
-//    printf("-----------------------------------------\n");
-//    mostrarPorGenero(listado,alumnosValidos,genra);
-//    printf("EJERCICIO 6 - INSERTAR UN ARREGLO ORDENADO POR MATRICULA\n");
-//    printf("---------------------------------------------------------\n");
-//    stAlumno alumnoNuevo;
-//    alumnosValidos=agregarAlumnoOrdenadoPorMatricula(listado,alumnosValidos,30, alumnoNuevo);
-//    mostrarAlumno(listado, alumnosValidos);
-//    printf("EJERCICIO 7 - ORDEN NOMBRE INSERCION\n");
-//    printf("------------------------------------\n");
-//    ordenarNombreInsercion(listado, alumnosValidos);
-//    mostrarAlumno(listado,alumnosValidos);
-//    printf("EJERCICIO 8 - CANTIDAD POR GENERO\n");
-//    printf("------------------------------------\n");
-//    cantidadGenero(listado,alumnosValidos,genra);
