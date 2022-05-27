@@ -222,7 +222,7 @@ int agregarAlumnoOrdenadoPorMatricula(stAlumno alumnos[], int validos, int dimen
     return validos;
 }
 
-/// 7 Hacer una función que ordene el arreglo de alumnos por medio del método de inserción. El criterio de ordenación es el nombre.
+/// 7 Hacer una funciÃ³n que ordene el arreglo de alumnos por medio del mÃ©todo de inserciÃ³n. El criterio de ordenaciÃ³n es el nombre.
 void insertarAlumno(stAlumno alumnos[],int u,stAlumno alumnoNuevo){
     int i=u;
     while (i>=0 && strcmp(alumnoNuevo.nombre,alumnos[i].nombre)<0){
@@ -273,7 +273,7 @@ int menu(){
     int option;
     color(11);
         printf("====================================\n");
-        printf(" TRABAJO PRACTICO N° 6: ESTRUCTURAS\n");
+        printf(" TRABAJO PRACTICO NÂ° 6: ESTRUCTURAS\n");
         printf("====================================\n");
         color(7);
         printf(" 1.HACER UNA FUNCION QUE CARGUE UN ARREGLO DE ALUMNOS, HASTA QUE EL USUARIO DECIDA\n\n");
@@ -285,7 +285,7 @@ int menu(){
         printf(" 7.HACER UNA FUNCION QUE ORDENE EL ARREGLO DE ALUMNOS POR MEDIO DEL METODO DE INSERCION. EL CRITERIO DE ORDENACION ES EL NOMBRE\n\n");
         printf(" 8.HACER UNA FUCNION QUE CUENTE Y RETORNE LA CANTIDAD DE ESTUDIATES DE UN GENERO DETERMINADO (SE ENVIA POR PARAMETRO) QUE TIENE UN ARREGLO DE ALUMNOS\n\n");
         printf(" 9.SALIR\n\n");
-        printf("\n ELIJA UNA OPCIÓN: ");
+        printf("\n ELIJA UNA OPCIÃ“N: ");
         fflush(stdin);
         scanf("%i", &option);
         return option;
@@ -324,7 +324,8 @@ void funcionMenu(){
             printf("  3.HACER UNA FUNCION QUE MUESTRE POR PANTALLA LOS DATOS DE UN ALUMNO, CONOCIENDO SU MATRICULA. MODULARIZAR\n");
             color(7);
             buscarAlumno(alumnos, alumnosValidos);
-            system("pause");            system("cls");
+            system("pause");
+            system("cls");
         }
         break;
         case 4:{
@@ -396,39 +397,3 @@ void funcionMenu(){
     color(7);
     system("pause");
 }
-
-
-
-
-
-
-
-/// BACK UP ///
-//    printf("EJERCICIO 1 - CARGA DE ALUMNOS\n");
-//    printf("-------------------------------\n");
-//    alumnosValidos=cargarAlumno(listado,30);
-//    printf("EJERCICIO 2 - MOSTRAR LISTADO DE ALUMNOS\n");
-//    printf("-----------------------------------------\n");
-//    mostrarAlumno(listado,alumnosValidos);
-//    printf("EJERCICIO 3 - BUSCAR ALUMNO POR MATRICULA\n");
-//    printf("------------------------------------------\n");
-//    buscarAlumno(listado,alumnosValidos);
-//    printf("EJERCICIO 4 - ORDENAR LOS ALUMNOS POR MATRICULA\n");
-//    printf("------------------------------------------------\n");
-//    ordenarSeleccion(listado,alumnosValidos);
-//    mostrarAlumno(listado,alumnosValidos);
-//    printf("EJERCICIO 5 - MOSTRAR ALUMNOS POR GENERO\n");
-//    printf("-----------------------------------------\n");
-//    mostrarPorGenero(listado,alumnosValidos,genra);
-//    printf("EJERCICIO 6 - INSERTAR UN ARREGLO ORDENADO POR MATRICULA\n");
-//    printf("---------------------------------------------------------\n");
-//    stAlumno alumnoNuevo;
-//    alumnosValidos=agregarAlumnoOrdenadoPorMatricula(listado,alumnosValidos,30, alumnoNuevo);
-//    mostrarAlumno(listado, alumnosValidos);
-//    printf("EJERCICIO 7 - ORDEN NOMBRE INSERCION\n");
-//    printf("------------------------------------\n");
-//    ordenarNombreInsercion(listado, alumnosValidos);
-//    mostrarAlumno(listado,alumnosValidos);
-//    printf("EJERCICIO 8 - CANTIDAD POR GENERO\n");
-//    printf("------------------------------------\n");
-//    cantidadGenero(listado,alumnosValidos,genra);
