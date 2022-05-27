@@ -319,7 +319,6 @@ void funcionMenu(){
             color(7);
             buscarAlumno(alumnos, alumnosValidos);
             system("pause");
-            
             system("cls");
         }
         break;
