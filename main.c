@@ -389,8 +389,8 @@ void funcionMenu(){
             color(7);
             system("pause");
             system("cls");
-        break;
         }
+        break;
     }while(option!=9);
     color(12);
     printf("\n FIN DEL PROGRAMA\n\n");
